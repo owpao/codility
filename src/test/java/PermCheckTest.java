@@ -27,4 +27,10 @@ public class PermCheckTest {
         PermCheck pc = new PermCheck();
         Assert.assertEquals(0,pc.solution(new int[] {}));
     }
+
+    @Test
+    public void antiSumTest(){
+        PermCheck pc = new PermCheck();
+        Assert.assertEquals(0,pc.solution(new int[] {1,4,1}));
+    }
 }
